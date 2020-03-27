@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\soAhn\\Desktop\\OrbbecStreamSample_222\\OrbbecCameraPreview\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\soAhn\\Desktop\\OrbbecStreamSample_222\\OrbbecCameraPreview\\src\\main\\res\\values-v14\\styles.xml",
+                    "from": {
+                        "startLines": "30",
+                        "startColumns": "4",
+                        "startOffsets": "1207",
+                        "endLines": "32",
+                        "endColumns": "12",
+                        "endOffsets": "1355"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "201"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,115 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~  UVCCamera
+4  ~  library and sample to access to UVC web camera on non-rooted Android device
+5  ~
+6  ~ Copyright (c) 2014-2017 saki t_saki@serenegiant.com
+7  ~
+8  ~  Licensed under the Apache License, Version 2.0 (the "License");
+9  ~  you may not use this file except in compliance with the License.
+10  ~   You may obtain a copy of the License at
+11  ~
+12  ~      http://www.apache.org/licenses/LICENSE-2.0
+13  ~
+14  ~   Unless required by applicable law or agreed to in writing, software
+15  ~   distributed under the License is distributed on an "AS IS" BASIS,
+16  ~   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+17  ~   See the License for the specific language governing permissions and
+18  ~   limitations under the License.
+19  ~
+20  ~  All files in the folder are under this Apache License, Version 2.0.
+21  ~  Files in the libjpeg-turbo, libusb, libuvc, rapidjson folder
+22  ~  may have a different license, see the respective files.
+23-->
+24<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+25    package="com.serenegiant.obpreview"
+26    android:versionCode="8"
+27    android:versionName="3.00" >
+28
+29    <uses-sdk
+30        android:minSdkVersion="21"
+30-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml
+31        android:targetSdkVersion="28" />
+31-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml
+32
+33    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+33-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:27:5-70
+33-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:27:22-68
+34    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+34-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:28:5-80
+34-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:28:22-78
+35
+36    <uses-feature
+36-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:30:5-78
+37        android:glEsVersion="0x00020000"
+37-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:30:19-51
+38        android:required="true" />
+38-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:30:52-75
+39
+40    <meta-data
+40-->[com.android.support:recyclerview-v7:25.3.1] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\9733c474961d3fe21c5790fe92bc7ee3\recyclerview-v7-25.3.1\AndroidManifest.xml:22:5-24:34
+41        android:name="android.support.VERSION"
+41-->[com.android.support:recyclerview-v7:25.3.1] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\9733c474961d3fe21c5790fe92bc7ee3\recyclerview-v7-25.3.1\AndroidManifest.xml:23:9-47
+42        android:value="25.3.1" />
+42-->[com.android.support:recyclerview-v7:25.3.1] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\9733c474961d3fe21c5790fe92bc7ee3\recyclerview-v7-25.3.1\AndroidManifest.xml:24:9-31
+43
+44    <application
+44-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:32:5-57:19
+45        android:allowBackup="true"
+45-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:33:9-35
+46        android:debuggable="true"
+47        android:icon="@drawable/ic_launcher"
+47-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:34:9-45
+48        android:label="@string/app_name"
+48-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:35:9-41
+49        android:testOnly="true"
+50        android:theme="@style/AppTheme" >
+50-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:36:9-40
+51        <activity android:name="com.serenegiant.obpreview.MainActivity" >
+51-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:37:9-43:20
+51-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:37:19-72
+52            <intent-filter>
+52-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:38:13-42:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:39:17-69
+53-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:39:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:41:17-77
+55-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:41:27-74
+56            </intent-filter>
+57        </activity>
+58        <activity android:name="com.serenegiant.obpreview.passwordActivity" >
+58-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:44:9-45:20
+58-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:44:19-76
+59        </activity>
+60        <activity android:name="com.serenegiant.obpreview.payfailActivity" >
+60-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:46:9-47:20
+60-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:46:19-50
+61        </activity>
+62        <activity
+62-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:48:9-52:20
+63            android:name="com.serenegiant.obpreview.detectActivity"
+63-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:49:13-68
+64            android:label="@string/app_name" >
+64-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:50:13-45
+65        </activity>
+66        <activity android:name="com.serenegiant.obpreview.payokActivity" >
+66-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:53:9-54:20
+66-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:53:19-73
+67        </activity>
+68        <activity
+68-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:55:9-120
+69            android:name="com.serenegiant.obpreview.PopupActivity"
+69-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:55:19-73
+70            android:theme="@android:style/Theme.Dialog" />
+70-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:55:74-117
+71        <activity
+71-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:56:9-126
+72            android:name="com.serenegiant.obpreview.PopupSelectActivity"
+72-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:56:19-79
+73            android:theme="@android:style/Theme.Dialog" />
+73-->C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:56:80-123
+74    </application>
+75
+76</manifest>

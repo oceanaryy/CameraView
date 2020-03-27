@@ -1,0 +1,144 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:24:1-59:12
+INJECTED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:24:1-59:12
+INJECTED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:24:1-59:12
+INJECTED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:24:1-59:12
+MERGED from [:usbCameraCommon] C:\Users\soAhn\Desktop\OrbbecStreamSample_222\usbCameraCommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:1-31:12
+MERGED from [:libuvccamera] C:\Users\soAhn\Desktop\OrbbecStreamSample_222\libuvccamera\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:1-33:12
+MERGED from [com.serenegiant:common:1.5.20] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\03131da5942c920c07d05876bc4e7476\common-1.5.20\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\6f0b0916ff5f97d7f64be501e6c16da4\constraint-layout-1.0.2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\9733c474961d3fe21c5790fe92bc7ee3\recyclerview-v7-25.3.1\AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\03c30dcf64a91bd86fc5bc2ff3b16ace\support-core-ui-25.3.1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\dd20c9bfe82bdd580979b2b2514674d0\support-compat-25.3.1\AndroidManifest.xml:17:1-31:12
+INJECTED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:24:1-59:12
+INJECTED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:24:1-59:12
+INJECTED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:24:1-59:12
+	package
+		ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:25:5-40
+		INJECTED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml
+		ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:24:1-59:12
+		INJECTED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml
+		ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:24:1-59:12
+		INJECTED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:24:11-69
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:27:5-70
+	android:name
+		ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:27:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:28:5-80
+	android:name
+		ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:28:22-78
+uses-feature#0x00020000
+ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:30:5-78
+	android:glEsVersion
+		ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:30:19-51
+	android:required
+		ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:30:52-75
+application
+ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:32:5-57:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\6f0b0916ff5f97d7f64be501e6c16da4\constraint-layout-1.0.2\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\6f0b0916ff5f97d7f64be501e6c16da4\constraint-layout-1.0.2\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\03c30dcf64a91bd86fc5bc2ff3b16ace\support-core-ui-25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\03c30dcf64a91bd86fc5bc2ff3b16ace\support-core-ui-25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\dd20c9bfe82bdd580979b2b2514674d0\support-compat-25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\dd20c9bfe82bdd580979b2b2514674d0\support-compat-25.3.1\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:35:9-41
+	android:icon
+		ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:34:9-45
+	android:allowBackup
+		ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:33:9-35
+	android:theme
+		ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:36:9-40
+activity#com.serenegiant.obpreview.MainActivity
+ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:37:9-43:20
+	android:name
+		ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:37:19-72
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:38:13-42:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:39:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:41:17-77
+	android:name
+		ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:41:27-74
+activity#com.serenegiant.obpreview.passwordActivity
+ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:44:9-45:20
+	android:name
+		ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:44:19-76
+activity#com.serenegiant.obpreview.payfailActivity
+ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:46:9-47:20
+	android:name
+		ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:46:19-50
+activity#com.serenegiant.obpreview.detectActivity
+ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:48:9-52:20
+	android:label
+		ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:50:13-45
+	android:name
+		ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:49:13-68
+activity#com.serenegiant.obpreview.payokActivity
+ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:53:9-54:20
+	android:name
+		ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:53:19-73
+activity#com.serenegiant.obpreview.PopupActivity
+ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:55:9-120
+	android:theme
+		ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:55:74-117
+	android:name
+		ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:55:19-73
+activity#com.serenegiant.obpreview.PopupSelectActivity
+ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:56:9-126
+	android:theme
+		ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:56:80-123
+	android:name
+		ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml:56:19-79
+uses-sdk
+INJECTED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml
+INJECTED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml
+MERGED from [:usbCameraCommon] C:\Users\soAhn\Desktop\OrbbecStreamSample_222\usbCameraCommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:5-29:41
+MERGED from [:usbCameraCommon] C:\Users\soAhn\Desktop\OrbbecStreamSample_222\usbCameraCommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:5-29:41
+MERGED from [:libuvccamera] C:\Users\soAhn\Desktop\OrbbecStreamSample_222\libuvccamera\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:5-31:41
+MERGED from [:libuvccamera] C:\Users\soAhn\Desktop\OrbbecStreamSample_222\libuvccamera\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:5-31:41
+MERGED from [com.serenegiant:common:1.5.20] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\03131da5942c920c07d05876bc4e7476\common-1.5.20\AndroidManifest.xml:8:5-10:41
+MERGED from [com.serenegiant:common:1.5.20] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\03131da5942c920c07d05876bc4e7476\common-1.5.20\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\6f0b0916ff5f97d7f64be501e6c16da4\constraint-layout-1.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\6f0b0916ff5f97d7f64be501e6c16da4\constraint-layout-1.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\9733c474961d3fe21c5790fe92bc7ee3\recyclerview-v7-25.3.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\9733c474961d3fe21c5790fe92bc7ee3\recyclerview-v7-25.3.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\03c30dcf64a91bd86fc5bc2ff3b16ace\support-core-ui-25.3.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\03c30dcf64a91bd86fc5bc2ff3b16ace\support-core-ui-25.3.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\dd20c9bfe82bdd580979b2b2514674d0\support-compat-25.3.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\dd20c9bfe82bdd580979b2b2514674d0\support-compat-25.3.1\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml
+INJECTED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-core-ui:25.3.1] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\03c30dcf64a91bd86fc5bc2ff3b16ace\support-core-ui-25.3.1\AndroidManifest.xml:23:9-55
+	android:targetSdkVersion
+		INJECTED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml
+		ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml
+		ADDED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\soAhn\Desktop\OrbbecStreamSample_222\OrbbecCameraPreview\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\9733c474961d3fe21c5790fe92bc7ee3\recyclerview-v7-25.3.1\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\03c30dcf64a91bd86fc5bc2ff3b16ace\support-core-ui-25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\03c30dcf64a91bd86fc5bc2ff3b16ace\support-core-ui-25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\dd20c9bfe82bdd580979b2b2514674d0\support-compat-25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\dd20c9bfe82bdd580979b2b2514674d0\support-compat-25.3.1\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\9733c474961d3fe21c5790fe92bc7ee3\recyclerview-v7-25.3.1\AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\soAhn\.gradle\caches\transforms-2\files-2.1\9733c474961d3fe21c5790fe92bc7ee3\recyclerview-v7-25.3.1\AndroidManifest.xml:23:9-47
